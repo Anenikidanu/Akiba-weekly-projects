@@ -1,0 +1,16 @@
+student_name=str(input("please enter your full name : "));
+student_id=int(input("please enter your student id : "));
+department=str(input(" specify your department : "));
+year=int(input("what is your year of study : "));
+university=str(input("which university do you attend : "));
+phone_no=int(input("please enter your phone number : "));
+print("+---------------------------+");
+print("|\tAKIBA STUDENT CARD\t |");
+print("+---------------------------+");
+print("|Name:"+student_name +"\t|");
+print("|ID: AKB- "+str(student_id) +"\t|");
+print("|Department:" + department +"\t|");
+print("|Year:"+str(year) +"\t|");
+print("|University:"+university +"\t|");
+print("|Phone Number:"+str(phone_no) +"\t|");
+print("+---------------------------+");
