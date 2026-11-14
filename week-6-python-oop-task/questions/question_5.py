@@ -41,3 +41,27 @@ class ShoppingCart:
             product.display_product()
 
         print(f"Total: {self.calculate_total()}")
+# Creating products
+p1 = Product("Laptop", 50000)
+p2 = Product("Mouse", 1000)
+p3 = Product("Keyboard", 2500)
+
+# Checking prices
+print(Product.is_valid_price(p1.price))  # True
+
+# Creating shopping cart
+cart = ShoppingCart()
+
+# Adding products
+cart.add_product(p1)
+cart.add_product(p2)
+cart.add_product(p3)
+
+# Displaying cart
+cart.display_cart()
+
+# Changing store name
+Product.change_store_name("Akiba Tech Store")
+
+# Displaying updated store name
+p1.display_product()
